@@ -8,8 +8,13 @@ import ddf.minim.ugens.*;
 
 //
 //Global Variables
+String Path = new File("").getAbsolutePAth()l //Exported
+String directory = "C:\User
 //
-void setup() {}//End setup
+void setup()
+{
+  File dir = new File(Path);//NULL if not export
+if ( dir == null ) }//End setup
 //
 void draw() {}//End draw
 //
